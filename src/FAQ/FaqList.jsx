@@ -9,10 +9,10 @@ function FaqList() {
   return (
     <div>
         <div className="text-gray-900 text-center -space-y-1">
-            <h1 className="text-fluid-title font-bold uppercase">Most Frequent Asked questions</h1>
-            <p className="text-sm italic text-gray-800">by travelers</p>
+            <h1 className="text-fluid-title font-bold uppercase">Most Frequently Asked Questions</h1>
+            <p className="italic text-gray-700">by travelers</p>
         </div>
-      <div className="md:flex items-start justify-between gap-8 mt-7">
+      <div className="md:flex items-start justify-between gap-8 mt-7 sm:mt-10">
         <div className="w-full">
           <img className="w-full h-auto" src={tharuni} alt="Portrait_img" />
         </div>
